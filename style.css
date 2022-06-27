@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.left img{
+    width: 32px;
+    height: 23px;
+}
+.container{
+    padding: 0 10vw;
+   
+}
+.containerHeader{
+    padding: 0 10vw;
+   
+}
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+.section1{
+    background: rgb(248, 246, 246);
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.search {
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    width: 34vw;
+    color: #696e79;
+    box-sizing: content-box;
+    padding: 8px 10px 10px;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+}
+.homeImg{
+    width: 80vw;
+    margin: 12px 0;
+}
+.homeImg1{
+    width: 100vw;
+}
+.homeImg2{
+    width: 100vw;
+}
+.homeImg3{
+    width: 100vw; 
+}
+.homeImg4{
+    width: 100vw; 
+}
+.homeImg5{
+    width: 100vw; 
+}
+.homeImg6{
+    width: 100vw; 
+}
+   @media (max-width:900px){
+
+    nav ul li{
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+    .containerHeader{
+        padding: 0 2vw;
+       
+    }
+    header{
+        height: 122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+}
